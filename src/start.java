@@ -46,6 +46,7 @@ public class start {
             itemIndex ++;
         }
 
+        // Output the results
         System.out.println(Beloveds);
         System.out.println(DestinyItem.searchForItems("Beloved"));
     }
