@@ -16,7 +16,7 @@ import java.util.Arrays;
 public class start {
 
     public static void main(String[] args) {
-        System.out.println("GFY"); // Display the string.
+        // System.out.println("GFY"); // Display the string.
 
         DestinyAPI api = new DestinyAPI().setApiKey("89fdc02a152e4e30ab768b37e935e8aa");
 
@@ -24,9 +24,9 @@ public class start {
 
         System.out.println(user.getTimePlayed() / 60.0);
 
-        System.out.println(new Clan("Heavenly Mayhem").getFounder().getSupplementalDisplayName());
-
-        ////
+        // Above needs DestinyAPI.getUsersWithName to take in any input
+        // Below gets the characters equipped items
+        // Right now I have the items be put in the terminal, want them to be displayed with images
 
         var characters = user.getCharacters();
 

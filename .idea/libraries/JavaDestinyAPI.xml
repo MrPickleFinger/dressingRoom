@@ -5,6 +5,7 @@
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/JavaDestinyAPI.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/openjfx-18.0.1_windows-x64_bin-sdk.zip!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
