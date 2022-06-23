@@ -22,7 +22,6 @@ public class start {
 
         var user = DestinyAPI.getUsersWithName("Ron's Creamy Surprise#7155").get(0);
 
-        // Print the time played
         System.out.println(user.getTimePlayed() / 60.0);
 
         // Above needs DestinyAPI.getUsersWithName to take in any input
@@ -49,7 +48,5 @@ public class start {
 
         System.out.println(Beloveds);
         System.out.println(DestinyItem.searchForItems("Beloved"));
-
-        //System.out.println(DestinyItem);
     }
 }
